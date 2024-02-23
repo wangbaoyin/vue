@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cebac251-630a-42b2-ae96-15b332fb6bf1" name="Default Changelist" comment="">
+    <list default="true" id="cebac251-630a-42b2-ae96-15b332fb6bf1" name="Default Changelist" comment="初始提交">
+      <change afterPath="$PROJECT_DIR$/es6/.idea/es6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/es6/01（let和const命令）.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/es6/01（es6简介）.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/es6/03（字符串新增方法）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/11（let和var）.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/11（let和var）.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,22 +42,25 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="XHTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vue" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\HP\IdeaProjects\vue\20200918" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\IdeaProjects\vue\es6" />
       <recent name="C:\Users\HP\IdeaProjects\vue\vue" />
       <recent name="C:\Users\HP\IdeaProjects\vue\javaScript" />
       <recent name="C:\Users\HP\IdeaProjects\vue" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\IdeaProjects\vue\20200918" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -102,7 +109,22 @@
       <workItem from="1604296448832" duration="1747000" />
       <workItem from="1604310913212" duration="4674000" />
       <workItem from="1604892929780" duration="17638000" />
-      <workItem from="1607928699575" duration="5044000" />
+      <workItem from="1607928699575" duration="13751000" />
+      <workItem from="1608270168578" duration="324000" />
+      <workItem from="1608270670707" duration="30000" />
+      <workItem from="1608516610347" duration="5646000" />
+      <workItem from="1608775994759" duration="16589000" />
+      <workItem from="1612410583682" duration="12716000" />
+      <workItem from="1613698646644" duration="23745000" />
+      <workItem from="1622627001618" duration="691000" />
+      <workItem from="1650261241474" duration="886000" />
+      <workItem from="1659958408620" duration="1069000" />
+      <workItem from="1660527089379" duration="759000" />
+      <workItem from="1686882705978" duration="9137000" />
+      <workItem from="1688603680769" duration="588000" />
+      <workItem from="1688959473147" duration="596000" />
+      <workItem from="1692154522360" duration="606000" />
+      <workItem from="1692238482582" duration="499000" />
     </task>
     <task id="LOCAL-00001" summary="初始提交">
       <created>1608175085511</created>
@@ -118,7 +140,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608175390566</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="初始提交">
+      <created>1608177592506</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608177592506</updated>
+    </task>
+    <task id="LOCAL-00004" summary="20201230提交">
+      <created>1609294423242</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609294423242</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,36 +162,41 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="初始提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始提交" />
+    <MESSAGE value="20201230提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="20201230提交" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="331" y="28" key="CommitChangelistDialog2" timestamp="1608175390044">
+    <state x="331" y="28" key="CommitChangelistDialog2" timestamp="1609294422304">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="331" y="28" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1608175390044" />
-    <state x="500" y="188" key="FileChooserDialogImpl" timestamp="1604309688589">
+    <state x="331" y="28" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1609294422304" />
+    <state x="500" y="188" key="FileChooserDialogImpl" timestamp="1612674929206">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="500" y="188" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1604309688589" />
-    <state x="223" y="75" key="SettingsEditor" timestamp="1600770983510">
+    <state x="500" y="188" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1612674929206" />
+    <state x="595" y="325" width="274" height="209" key="Github.ShareDialog" timestamp="1608181505238">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="223" y="75" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1600770983510" />
-    <state x="312" y="166" key="Vcs.Push.Dialog.v2" timestamp="1608175404930">
+    <state x="595" y="325" width="274" height="209" key="Github.ShareDialog/0.0.1440.860@0.0.1440.860" timestamp="1608181505238" />
+    <state x="360" y="133" key="NewModule_or_Project.wizard" timestamp="1609313000071">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="166" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1608175404930" />
-    <state x="412" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1603431202554">
+    <state x="360" y="133" key="NewModule_or_Project.wizard/0.0.1440.860@0.0.1440.860" timestamp="1609313000070" />
+    <state x="223" y="75" key="SettingsEditor" timestamp="1608181442394">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="412" y="257" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1603431202554" />
+    <state x="223" y="75" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1608181442394" />
+    <state x="312" y="166" key="Vcs.Push.Dialog.v2" timestamp="1609294431753">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="312" y="166" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1609294431753" />
     <state x="94" y="92" key="new project wizard" timestamp="1606459873621">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="94" y="92" key="new project wizard/0.0.1440.860@0.0.1440.860" timestamp="1606459873621" />
-    <state x="383" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1603954970652">
+    <state x="383" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1614850933169">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="383" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1603954970652" />
+    <state x="383" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1440.860@0.0.1440.860" timestamp="1614850933169" />
   </component>
 </project>

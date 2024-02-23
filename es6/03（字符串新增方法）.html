@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let s = 'Hello world!';
+    //startsWith()：返回布尔值，表示参数字符串是否在原字符串的头部。
+    console.log(s.startsWith('Hello')); // true
+    //endsWith()：返回布尔值，表示参数字符串是否在原字符串的尾部。
+    console.log(s.endsWith('!')); // true
+    //includes()：返回布尔值，表示是否找到了参数字符串。
+    console.log(s.includes('o')); // true
+    //repeat方法返回一个新字符串，表示将原字符串重复n次。
+    console.log("wangby".repeat(5));
+    console.log('wangby'.repeat(2.9));
+
+   // padStart()用于头部补全，padEnd()用于尾部补全。
+
+    console.log('x'.padStart(5, 'ab')); // 'ababx'
+    console.log('x'.padStart(4, 'ab')); // 'abax'
+
+    console.log('x'.padEnd(5, 'ab')); // 'xabab'
+    console.log('x'.padEnd(4, 'ab')); // 'xaba'
+
+    //trimStart()和trimEnd()这两个方法。
+    // 它们的行为与trim()一致，trimStart()消除字符串头部的空格，
+    // trimEnd()消除尾部的空格。
+    // 它们返回的都是新字符串，不会修改原始字符串
+    //除了空格键，这两个方法对字符串头部（或尾部）的 tab 键、换行符等不可见的空白符号也有效。
+    const ss = '  abc  ';
+
+    console.log(ss.trim()); // "abc"
+    console.log(ss.trimStart()); // "abc  "
+    console.log(ss.trimEnd()); // "  abc"
+
+    //trimLeft()是trimStart()的别名，trimRight()是trimEnd()的别名。
+    console.log(ss.trimLeft());
+    console.log(ss.trimRight());
+
+
+
+
+    //历史上，字符串的实例方法replace()只能替换第一个匹配。
+    let str = 'aabbcc';
+    console.log(str.replace('b', '_'));
+    console.log(str);
+    // 'aa_bcc'
+    //上面例子中，replace()只将第一个b替换成了下划线。
+    //如果要替换所有的匹配，不得不使用正则表达式的g修饰符。
+    console.log('aabbcc'.replace(/b/g, '_'));
+    // 'aa__cc'
+    //正则表达式毕竟不是那么方便和直观，ES2021 引入了replaceAll()方法，可以一次性替换所有匹配。
+    console.log('aabbcc'.replaceAll('b', '_'));
+    // 'aa__cc'
+    //它的用法与replace()相同，返回一个新字符串，不会改变原字符串。
+</script>
